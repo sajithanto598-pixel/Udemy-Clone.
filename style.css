@@ -1,0 +1,131 @@
+*{
+    margin : 0px;
+    padding : 0px;
+
+}
+body{
+    font-family: 'gabarito',sans-serif;
+    background-color :  #ECEFF1;
+    
+
+
+
+}
+.navbar{
+    padding : 10px;
+    display : flex;
+    justify-content: space-around;
+    border-bottom: solid black 2px; 
+    align-items: center;
+
+}
+.navbar__s1{
+    color :#A435F0;
+    font-size: 25px;
+}
+.navbar__s2{
+    margin : 5px;
+    padding : 10px;
+    border : solid black;
+    border-radius: 30px;
+    width : 60%;
+    display : flex;
+    gap : 10px;
+}
+.navbar__s2:focus{
+    border : none;
+}
+.navbar__s2 input{
+    width : 100%;
+    border : none;
+    font-size: 17px;
+}
+.navbar__s2 input:focus{
+    outline : none;
+}
+.navbar__s3{
+        display : flex;
+        gap : 10px;
+        font size : 18px;
+
+}
+.categerious{
+    display : flex;
+    padding : 10px;
+    border-bottom: black solid 2px;
+    justify-content: space-around;
+}
+.categerious p{
+    color :antiquewhite;
+    background-color: blue;
+    border-radius: 30px;
+    padding : 10px 40px;
+    font-size: 18px;
+}
+.categerious p:hover{
+    color:black;
+    background-color: aqua;
+    border : solid 2px black;
+}
+.sale_image img{
+    width: 100%;
+
+}
+.courses{
+    padding : 10px;
+    margin-top: 10px;
+    
+}
+.courses__card{
+    width : 100%;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.courses__card img{
+    width :250px; 
+    height : 170px; 
+}
+.topics{
+    padding : 10px;
+    
+}
+.topics__container{
+    display :flex; 
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap:wrap;
+    
+}
+.topics__container p{
+    padding :10px;
+    outline: solid grey 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+.topics__container p:hover{
+    color :aqua;
+    background-color: grey;
+}
+.footer{
+    padding:20px;
+    background-color: black;
+    color :aqua;
+}
+.footer__one{
+    display : flex;
+    gap 10px;
+}
+.footer__one p{
+    margin : 20px;
+}
+.footer__two{
+    display: flex;
+    margin : 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
